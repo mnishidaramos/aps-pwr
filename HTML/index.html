@@ -1,0 +1,73 @@
+<!--a tag doctype diz ao seu navegador qual o tipo de documento irá abrir-->
+<!DOCTYPE html>
+<html>
+    <!--a tag head é utilizada para o seu navegador de escolha interpretar os caracteres que serão utilizados (charset) 
+     e os mecanismos de busca (meta name/content) a tag title da nome a sua página-->
+    <head>
+        <title>Trabalho PWR</title>
+        <meta charset="UTF-8">
+        <meta name ="Trabalho"  content ="HTML CSS">
+        <meta name ="autores" content ="Os meninos">
+        <!--a tag link é utilizada para linkar o CSS (nesse caso) na cabeça do arquivo 
+        a tag rel significa relacionamento, e é utilizada para mostrar o relacionamento que será utilizado na página
+        no caso será stylesheet que é responsavel pelo estilo da página-->
+        <link rel="stylesheet" href="../CSS/style.css">
+    </head>
+    <!--a tag body contem tudo que está dentro da página do site-->
+    <body>
+        <!--é criado um div id primeiramente para o cabecalho com a funçao header que contem o que irá ficar no topo da página
+        e utilizando o elemento nav que representa uma seção com links-->
+        <div id = "principal">
+            <!-- id e class, são duas funções utilizadas para identificar a tag, para no CSS  vocÊ consegir alterar apenas uma classe 
+            ou id (por exemplo, teno dois header no código, para diferencia-los no css utiliza-se class)-->
+            <header class="cabecalho">
+                <nav>
+                    <!--ul é utilizado para criar uma lista (ol é uma tag que cria lista também, mas uma lista organizada)
+                    li são os itens dentro da lista-->
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pagina_sobre.html" target="_blank">Sobre o projeto</a></li>
+                        <li><a href="pagina_quem_somos.html" target="_blank">Quem somos</a></li>
+                    </ul>
+                </nav>
+                <!--é criado outro div dentro do div principal para inserir o titulo e um link-->
+                <div class="titulo">
+                    <h1>Trabalho PWR</h1>
+                    <a href="pagina_linguagens.html" target="_blank">Sobre HTML, CSS e JS</a>
+                </div>
+            </header>
+            <!--A tag main contem o que será o principal da página com sections dentro para a facilitar
+            a divisão, as sections contem divs ou articles dependendo do conteudo, se for imagem é usado div
+            se for agum arigo escrito é usado article-->
+            <main>
+                <section>
+                    <div class="card">
+                       <a href="pagina_soft.html" target="_blank" ><img src="../imagens/card_01.png" alt=""></a>
+                       <a href="pagina_soft.html" target="_blank"><p>Soft skills</p></a>
+                    </div>
+                    <div class="card">
+                        <a href="#"><img src="../imagens/card_05.jpg" alt=""></a>
+                        <a href="#"><p>Principais linguagem</p></a>
+                    </div>
+                    <div class="card">
+                        <a href="#"><img src="../imagens/card_03.jpg" alt=""></a>
+                        <a href="#"><p>Hard skills</p></a>
+                    </div>
+                </section>
+                <section class="artigo">
+                    <article>
+                        <header><h2>Titulo</h2></header>
+                        <p>paragrafo1</p>
+                        <p>paragrafo2</p>
+                    </article>
+
+                </section>
+
+            </main>
+            <!--O footer é o rodapé da página-->
+            <footer class="rodape">
+                <p>Copyright &copy; Os meninos</p>
+            </footer>
+        </div>
+    </body>
+</html>
