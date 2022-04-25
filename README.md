@@ -11,7 +11,7 @@ O projeto está em desenvolvimento pelos seguintes alunos:
 
 * [André Leonardo M. de Oliveira](https://github.com/Andre-Marinzeck)
 * [Arthur Lanzoni Silva](https://github.com/lanzonis)
-* Caio Sverzut Padovan
+* [Caio Sverzut Padovan](https://github.com/caiopadovan)
 * [Igor Andrade Oliveira](https://github.com/IgorAndrol)
 * [Matheus Nishida Ramos](https://github.com/mnishidaramos)
 
