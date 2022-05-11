@@ -1,8 +1,12 @@
+//Função que altera qual conteúdo está sendo exibido na coluna da direita
 function changeContent(id) {
-    // console.log(document.getElementsByClassName("conteudo-texto")[0].innerHTML);
-    // document.getElementsByClassName("conteudo-texto").array.forEach(element => {
-
-    // });
-    // document.getElementsById("conteudo-texto1").style.display = "none";
-    // document.getElementById(id).style.display = "true";
+    var elements = document.getElementsByClassName("conteudo-texto");
+    for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        if (element.id === id) {
+            element.style.display = "block";
+        } else {
+            element.style.display = "none";
+        }
+    };
 }
