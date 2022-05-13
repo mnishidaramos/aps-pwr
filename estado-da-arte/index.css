@@ -1,6 +1,7 @@
 .content-container {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
     width: 95vw;
     font-family: Verdana, sans-serif;
 }
@@ -11,7 +12,7 @@
     overflow-y: auto;
     overflow-x: hidden;
     padding: 10px;
-    max-height: calc(100vh - 100px);
+    max-height: calc(100vh - 130px);
     background-color: #fcfcfc;
 }
 
