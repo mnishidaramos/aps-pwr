@@ -1,0 +1,10 @@
+sites usados:
+
+Principal: https://aws.amazon.com/pt/iot/solutions/industrial-iot/
+
+Diferenças: https://www.mokosmart.com/pt/iiot-vs-iot-technologies/
+            https://www.hpe.com/br/pt/what-is/industrial-iot.html
+
+Beneficios: https://brasil.softlinegroup.com/sobre-a-empresa/blog/o-que-e-a-internet-das-coisas-industrial-e-quais-sao-suas-aplicacoes
+
+Futuro: https://www.copadata.com/pt/produtos/platform-editorial-content/o-que-sao-a-iot-e-a-iiot-copa-data/

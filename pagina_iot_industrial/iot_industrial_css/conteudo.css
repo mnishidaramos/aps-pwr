@@ -1,0 +1,83 @@
+/* Parte do conteudo principal*/
+.principal {
+    width: 65%;
+    margin: 5rem auto;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.principal_p {
+    margin-bottom: 2rem;
+}
+
+.principal_titulo {
+    font-size: 2.7rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Partes de casos de uso*/
+.casos-uso_titulo {
+    width: 65%;
+    margin: 2.5rem auto;
+}
+
+.casos-uso_principal {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.conteudo_cartao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cartao {
+    width: 25%;
+}
+
+.cartao_img  {
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.cartao_titulo {
+    text-decoration: underline;
+}
+
+.cartao_p {
+    text-align: justify;
+}
+
+/* parte beneficios*/
+
+.beneficio {
+    text-align: left;
+}
+
+.beneficio_titulo {
+    margin: 2rem 0;
+    text-decoration: underline;
+}
+
+.beneficio_p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/* parte das imagens*/
+
+.img01, .img04, .img06, .img07 {
+    width: 60%;
+    margin: 2rem 0;
+}
+
+.img02, .img05 {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.img03 {
+    width: 80%;
+    margin: 2rem 0;
+}
