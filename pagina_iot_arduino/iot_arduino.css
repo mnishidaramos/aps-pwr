@@ -1,0 +1,45 @@
+.banner_img {
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    background-image: url(./imagens/Arduino.jpg);
+    background: url(./imagens/Arduino.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    font-size: 4rem;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #F2F2F2;
+}
+
+/*parte da imagem*/
+.banner {
+    position: relative; 
+    color: #F2F2F2;
+}
+.banner_texto {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem 0;
+    background-color: rgba(0, 0, 0, 75%);
+    box-shadow: 0 0 200px #000000;
+}
+
+.banner_titulo {
+    text-align: center;
+    font-size: 8rem;
+}
+
+.banner_p {
+    font-size: 1.2rem;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
