@@ -1,8 +1,8 @@
 .banner_img {
     width: 100%;
     height: calc(100vh - 3.5rem);
-    background-image: url(./imagens/Arduino.jpg);
-    background: url(./imagens/Arduino.jpg) no-repeat center / cover;
+    background-image: url(./iot_arduino_img/Arduino.jpg);
+    background: url(./iot_arduino_img/Arduino.jpg) no-repeat center / cover;
     background-attachment: fixed;
 }
 
@@ -42,4 +42,54 @@
     width: 60%;
     margin: 0 auto;
     text-align: center;
+}
+.navegacao {
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    padding: 1rem 0 1.2rem 0;
+    background-color: #212529;
+    color: #F2F2F2;
+    box-shadow: inset 0px -2px 10px #555555;
+    
+}
+
+.nav_lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.2px;
+    list-style-type: none;
+}
+
+.nav_itens {
+    padding-top: .9rem;
+    cursor: pointer;
+    color: #F2F2F2;
+    border-top: 5px solid #00000000;
+    text-decoration: none;
+}
+
+.item1 {
+    border-top: 5px solid #F2C12E;
+    color: #F2C12E;
+}
+
+.nav_itens:hover {
+    border-top: 5px solid #F2C12E;
+    color: #F2C12E;
+}
+
+.content_2, .content_3, .content_4 {
+    display: none;
+}
+ .link_compra{
+     text-decoration: none;
+
+}
+.link_compra:hover{
+    color: #F2C12E;
 }
