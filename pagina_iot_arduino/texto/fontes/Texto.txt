@@ -1,0 +1,60 @@
+O que é o arduino.
+O que é Arduino?
+Introdução
+O que é um Arduino? Quando foi inventado? Quais suas principais funções dentro de nossa sociedade? Qual sua importância dentro do mundo da eletrônica? 
+Definição e História
+O que é?
+Em poucas palavras, Arduino é uma plataforma de desenvolvimento de projetos eletrônicos (ou prototipagem eletrônica, como também é comumente dito), constituída tanto de hardware e software.
+
+O principal componente de uma placa Arduino é seu microcontrolador, que nada mais é que um pequeno processador de computador montado em uma placa com diversos outros componentes que manipulam sua entrada e saída, e o propósito para isso é tornar mais fácil para você conectar o mundo físico ao seu redor com o mundo digital.
+
+seu software e hardware são open-source, ou seja, qualquer um pode desenvolver sua própria linguagem ou placa de Arduino e vender sem pagar royaties.
+Para que serve o arduino.
+As principais razões para se utilizar a plataforma Arduino em seus projetos são as seguintes:
+
+Baixo custo de prototipagem;
+Softwares de simulação gratuitos disponíveis;
+Fácil de programar;
+Grande número de tutoriais, artigos e projetos prontos na internet;
+Extensa comunidade de desenvolvedores e hobbystas;
+Não requer experiência ou grandes conhecimentos prévios de eletrônica/programação (no entanto, é recomendável saber os conceitos básicos pelo menos).
+O Arduino não é a única plataforma de prototipagem eletrônica do mercado. Existem outros projetos e kits de desenvolvimento, os mais comuns são o Raspberry Pi(colocar link) e o BeagleBone.
+A escolha de qual kit de prototipagem utilizar depende das demandas e necessidades que o seu projeto impõe.
+
+Hardware
+Existem diversos tipos de placa de Arduino, como o Arduino MEGA e o Arduino Pro Mini, porém iremos focar nossos estudos aqui no Arduino Uno, o mais famoso e utilizado no mundo da eletrônica.
+
+Todas as informações aqui presentes estão disponíveis na página oficial do Arduino e recomendamos que o leitor a explore como complemento a esse texto.
+
+São 6 classes de plataformas de prototipagem Arduino disponíveis no mercado atualmente:
+
+Entry Level: Versões mais simples e focadas em quem está começando a desenvolver projetos eletrônicos;
+Enhanced Features: Placas com funcionalidades adicionais voltadas para projetos mais complexos;
+Internet of Things: Plataformas específicas para projetos de Internet das coisas;
+Education: Apenas um modelo dessa classe, voltado para o ensino de eletrônica e programação;
+Wearable: Plataformas com características específicas para o desenvolvimento de wearables, ou “tecnologias vestíveis”, como smartwatches e peças de roupa com eletrônica embutida;
+3D printing: Impressora 3D desenvolvida com Arduino.
+
+Software
+O Arduino Integrated Development Environment – ou Arduino Software (IDE) – contém um editor de texto para escrever código, uma área de mensagem, um console de texto, uma barra de ferramentas com botões para funções comuns e uma série de menus. Ele se conecta ao hardware Arduino e Genuino para fazer upload de programas e se comunicar com eles.
+
+A IDE do Arduino também é open-source. Seu ambiente gráfico foi desenvolvido em Java e baseado em Processig e outras linguagens open-source.
+A linguagem de programação utilizada para escrever os códigos para Arduino é baseada nas tradicionais C/C++ (com modificações) e possui um grau de abstração muito alto e uma série de bibliotecas que encapsulam a maior parte da complexidade do microcontrolador.
+arduino e iot
+Internet das coisas e a utilização de Arduino na automação residencial
+Um dos projetos mais cobiçados pelos amantes da tecnologia é a automação residencial com Arduino, onde, por meio de aplicativos, comandar a casa como um todo, permitindo abrir e fechar cortinas e janelas motorizadas, ligar e desligar televisores em horários pré-definidos, comandar ventiladores, e tudo mais, isso diretamente do celular, tablet ou computador.
+
+Grandes coisas em automação podem ser feitas adicionando ao Arduino um Ethernet Shield, permitindo transformar o pequeno microcontrolador em um dispositivo conectado à internet, capaz de mudar o estado de luzes, TVs, praticamente qualquer coisa que pode pensar, ligado e desligado, utilizando uma interface baseada em browser ou um temporizador.
+
+Uso e aplicação
+O projeto estudado consiste na implementação de várias funcionalidades, dentre elas podemos destacar duas funcionalidades básicas do projeto: Monitoramento de temperatura e Sistema de iluminação. A figura 3 abaixo, apresenta um quadro geral do esquema em funcionamento. Aplicação do projeto consiste em ligar ou desligar as lâmpadas através de um sistema programável, na qual o usuário pode controlar todo ambiente da casa por um simples aplicativo mobile, como também disposto de um sistema de iluminação dimerizável, onde através deste, pode controlar a intensidade luminosa de determinada lâmpada, visto que, agrega um valor final na economia de energia. Quanto ao sistema de monitoramento de temperatura, é utilizado um sensor LM35, na qual este sensor permite o monitoramento de determinado ambiente da casa, podendo ser acionado se integrado por exemplo a um ar condicionado ou ventilador, supondo que, em um determinado dia em que está calor, o usuário determina no próprio aplicativo, quando atingir determinada temperatura, o mesmo acionaria automaticamente, reduzindo assim, mais uma vez o consumo de energia.
+
+Conclusão
+No cenário atual do controle de residências através de sistemas embarcados, utilizando microcontroladores como central de automação, foi observado que, o Arduino Uno apresentou-se uma ferramenta de fácil implementação, além de possuir uma relação de custo-benefício para o controle de determinados processos em residências conforme comentados na introdução. Outro ponto que se mostrou favorável, é que, o projeto estudado possui uma ótima relação de custo-benefício, se comparado aos sistemas atuais de automação residencial no mercado. 
+
+Vale ressaltar, no que se refere ao objetivo central do tema que era tentar compreender o funcionamento da automação residencial e seus sensores, foi atendido com sucesso, visto que, neste trabalho proposto, foi apresentado um estudo no desenvolvimento de um sistema de automação residencial utilizando a plataforma de prototipagem eletrônica Arduino. Buscando aliar um baixo custo de investimento ao projeto, como também apresentar de qual forma pode ser integrado aos conceitos de ioT.
+(se der um projeto de arduino)
+links:
+https://meuartigo.brasilescola.uol.com.br/informatica/internet-das-coisas-iot-utilizacao-do-arduino-para-automacao-residencial.htm
+https://blog.eletrogate.com/o-que-e-arduino-para-que-serve-vantagens-e-como-utilizar/
+https://www.youtube.com/watch?v=EaKBULiyWQE
