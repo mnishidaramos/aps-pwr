@@ -81,3 +81,38 @@
     width: 80%;
     margin: 2rem 0;
 }
+
+@media screen and (max-width: 768px) {
+
+    .principal {
+        width: 90%;
+        margin: 3.5rem auto;
+        text-align: justify;
+    }
+
+    .principal_titulo {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .principal_p {
+        font-size: 1rem;
+    }
+
+    .conteudo_cartao {
+        display: block;
+    }
+
+    .cartao {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .img01, .img02, .img03, .img04, .img05, .img06, .img07 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}

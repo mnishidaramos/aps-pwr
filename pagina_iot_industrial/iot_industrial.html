@@ -43,11 +43,11 @@
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Sobre IoT
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item  active"
                                         href="../pagina_iot_industrial/iot_industrial.html">Industrial</a></li>
                                 <li><a class="dropdown-item" href="#">Smart Home</a></li>
-                                <li><a class="dropdown-item" href="#">Arduino</a></li>
+                                <li><a class="dropdown-item" href="../pagina_iot_arduino/iot_arduino.html">Arduino</a></li>
                                 <li><a class="dropdown-item" href="./../estado-da-arte/index.html">Estado da Arte</a>
                                 </li>
                             </ul>
@@ -70,17 +70,24 @@
         </div>
         <!-- Navegação entre conteúdo -->
         <div class="navegacao">
-            <div class="nav">
-                <ul class="nav_lista">
-                    <li><a href="javascript: void(0)" class="nav_itens item1"
-                            onclick="changeContent('.content_1', '.item1')">IoT Industrial</a></li>
-                    <li><a href="javascript: void(0)" class="nav_itens item2"
-                            onclick="changeContent('.content_2', '.item2')">Diferenças entre IoT e IIoT</a></li>
-                    <li><a href="javascript: void(0)" class="nav_itens item3"
-                            onclick="changeContent('.content_3', '.item3')">Benefícios</a></li>
-                    <li><a href="javascript: void(0)" class="nav_itens item4"
-                            onclick="changeContent('.content_4', '.item4')">Futuro da IoT e da IIoT</a></li>
-                </ul>
+            <div>
+                <nav class="nav navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">Saiba Mais</span>
+                </button>
+                    <ul class="nav_lista collapse navbar-collapse" id="navbarNavDropdown">
+                        <li><a href="javascript: void(0)" class="nav_itens item1"
+                                onclick="changeContent('.content_1', '.item1')">IoT Industrial</a></li>
+                        <li><a href="javascript: void(0)" class="nav_itens item2"
+                                onclick="changeContent('.content_2', '.item2')">Diferenças entre IoT e IIoT</a></li>
+                        <li><a href="javascript: void(0)" class="nav_itens item3"
+                                onclick="changeContent('.content_3', '.item3')">Benefícios</a></li>
+                        <li><a href="javascript: void(0)" class="nav_itens item4"
+                                onclick="changeContent('.content_4', '.item4')">Futuro da IoT e da IIoT</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
         <!-- conteúdo -->
@@ -294,7 +301,7 @@
 
         <!-- Rodapé -->
         <footer class="rodape bg-dark">
-            <h1><a href="../index/index.html" class="logo">IoT</a></h1>
+            <a class="navbar-brand" href="../index/index.html">Internet of Things <i class="bi bi-wifi"></i></a>
             <p>&copy; Copyright 2022</p>
         </footer>
     </main>
