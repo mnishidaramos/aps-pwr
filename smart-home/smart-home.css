@@ -1,0 +1,47 @@
+#titulo_1 {
+  color: blue;
+}
+
+body {
+  text-align: center;
+}
+
+.artigo {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#porcentagem {
+  color: blue;
+}
+
+.texto1 {
+  text-align: center;
+}
+
+
+.titulo {
+  text-align: center;
+}
+
+
+
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item a {
+  color: #fff;
+  text-decoration: none;
+}

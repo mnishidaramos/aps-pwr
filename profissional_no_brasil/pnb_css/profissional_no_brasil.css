@@ -16,7 +16,7 @@ header {
 .banner_img {
     width: 100%;
     height: calc(100vh - 3.5rem);
-    background: url(../iot_industrial_img/banner_01.jpeg) no-repeat center / cover;
+    background: url(../pnb_img/pnb_banner.jpg) no-repeat center / cover;
     background-attachment: fixed;
 }
 
@@ -127,7 +127,7 @@ header {
 @media screen and (max-width: 768px) {
     .banner_img {
         width: 100%;
-        background: url(../iot_industrial_img/banner_02.jpg) no-repeat right / cover;
+        background: url(../pnb_img/pnb.banner02.jpg) no-repeat right / cover;
     }
 
     .banner_titulo {

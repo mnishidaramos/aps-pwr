@@ -67,17 +67,12 @@
 
 /* parte das imagens*/
 
-.img01, .img04, .img06, .img07 {
+.img_01, .img_02, .img_03, .img_05, .img_06 {
     width: 60%;
     margin: 2rem 0;
 }
 
-.img02, .img05 {
-    width: 100%;
-    margin: 2rem 0;
-}
-
-.img03 {
+.img_04, .img_07{
     width: 80%;
     margin: 2rem 0;
 }
@@ -108,7 +103,7 @@
         margin-top: 1.5rem;
     }
 
-    .img01, .img02, .img03, .img04, .img05, .img06, .img07 {
+    .img_01, .img_02, .img_03, .img_04, .img_05, .img_06, .img_07 {
         width: 100%;
     }
 }

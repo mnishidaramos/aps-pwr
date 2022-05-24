@@ -1,76 +1,221 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-Br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profissional no Brasil</title>
-    <style>
-        body{
-            max-width: 1024px;margin: auto;
-        }
-    </style>
-    
+
+    <title>Profissionais no Brasil</title>
+
+    <link rel="stylesheet" href="../pagina_iot_industrial/iot_industrial_css/reset.css">
+    <!-- <= css para resetar padrões da página -->
+
+    <link rel="stylesheet" href="../resources/bootstrap-5.1.3-dist/css/bootstrap.min.css"><!-- <= bootstrap.css -->
+    <script src="../resources/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script><!-- <= bootstrap.js -->
+
+    <link rel="stylesheet" href="../resources/bootstrap-icons/bootstrap-icons.css"><!-- <= bootstrap icons -->
+
+    <link rel="stylesheet" href="pnb_css/profissional_no_brasil.css"><!-- Parte de links para o css -->
+    <link rel="stylesheet" href="pnb_css/pnb_conteudo.css">
+
 </head>
+
 <body>
-    <!--Por enquanto tem apenas informações não mexi muito no design-->
-    <h1 align="center">Profissionais no Brasil na área de IoT</h1>
+    <header>
+        <!-- menu de navegação principal -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index/index.html">Internet of Things <i class="bi bi-wifi"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                                href="../profissional_no_brasil/profissional_no_brasil.html">Profissional no Brasil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sobre IoT
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item "
+                                        href="../pagina_iot_industrial/iot_industrial.html">Industrial</a></li>
+                                <li><a class="dropdown-item" href="../smart-home/smart-home.html">Smart Home</a></li>
+                                <li><a class="dropdown-item" href="../pagina_iot_arduino/iot_arduino.html">Arduino</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./../estado-da-arte/index.html">Estado da Arte</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-     <!--Informações sobre o investimento na área-->
-    <p>O mundo em que precisávamos de um computador de mesa para ficarmos conectados já é passado e cada vez mais eletrônicos contam com acesso a internet. O motivo disso é a <strong>Internet das Coisas</strong>, uma das principais tendências para o mercado tecnológico.</p>
-    <br>
-    <p>   Além de tornar a vida dos usuários mais conectada, o setor promete alavancar economicamente: segundo dados da Accenture extraídos do site <a href="https://medium.com/data-tech/future-of-iiot-three-predictions-and-trends-for-the-years-ahead-aa84b4ab6844" target="_blank">Medium</a>, espera-se que a indústria de IoT possa injetar na economia global, até 2030, US$ 14,2 trilhões. O Brasil não fica de fora dessa novidade, o estudo Índice de Inteligência Empresarial mostrou que o investimento de companhias brasileiras em novas tecnologias, em 2019, foi <a href="https://vocesa.abril.com.br/empreendedorismo/brasil-desponta-no-mercado-da-internet-das-coisas/" target="_blank">45% maior que em 2018</a> , totalizando US$6,1 milhões.</p>
-    <br>
-    <p>Para a construção de sistema embarcado conectado a rede, as pessoas precisam de <strong>conhecimentos multidisciplinares para entender como manipular dados de acordo com o contexto do projeto, e  levando a melhores tomadas de decisões</strong>. Isso implica possuir habilidades de programação, arquitetura de computadores, eletrônica embarcada, inteligência artificial, ciência de dados, física, computação e conhecimentos específicos de acordo com o projeto a ser desenvolvido, como  biologia, geografia, medicina, agronomia, física, entre outros. A IoT é um campo multidisciplinar, são necessários conhecimentos em diversas áreas para a equipe projetar um sistema.</p>
-    <br>
-    <p>Para entrar nesse mercado de trabalho o profissional em cienciâs da computação necessita possuir grande conhecimento em alguma dessas profissões:</p>
-<br>
+    </header>
+    <main>
+        <!-- Banner da página -->
+        <div class="banner">
+            <div class="banner_img"></div>
+            <div class="banner_texto">
+                <h2 class="banner_titulo">Profissional no Brasil</h2>
+                <p class="banner_p">Confira onde e quais profissionais podem trabalhar nesta área</p>
+            </div>
+        </div>
+        <!-- Navegação entre conteúdo -->
+        <div class="navegacao">
+            <div>
+                <nav class="nav navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">Saiba Mais</span>
+                    </button>
+                    <ul class="nav_lista collapse navbar-collapse" id="navbarNavDropdown">
+                        <li><a href="javascript: void(0)" class="nav_itens item1"
+                                onclick="changeContent('.content_1', '.item1')">Profissionais no Brasil na área de
+                                IoT</a></li>
+                        <li><a href="javascript: void(0)" class="nav_itens item2"
+                                onclick="changeContent('.content_2', '.item2')">Desenvolvedor</a></li>
+                        <li><a href="javascript: void(0)" class="nav_itens item3"
+                                onclick="changeContent('.content_3', '.item3')">Especialista</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- conteúdo -->
+        <div class="conteudo">
+            <!-- Conteúdo principal -->
+            <div class="content content_1">
+                <div class="conteudo">
+                    <section class="principal">
+                        <h2 class="principal_titulo">Profissionais no Brasil na área de IoT</h2>
+                        <p class="principal_p">O mundo em que precisávamos de um computador de mesa para ficarmos
+                            conectados já é passado e cada vez mais eletrônicos contam com acesso a internet. O motivo
+                            disso é a Internet das Coisas, uma das principais tendências para o mercado tecnológico.</p>
+                        <img src="./pnb_img/profisssionais_no_Brasil002.jpg" alt="Profissionais no Brasil"
+                            class="img_01">
 
-    <h2 align="center">Desenvolvedor de plataforma</h2>
-<figure align="center"><img src="imagem.alexa.jpg" alt="Imagem Alexa" height="400" width="400"></figure>
-<br>
+                        <p class="principal_p">Além de tornar a vida dos usuários mais conectada, o setor promete
+                            alavancar economicamente: segundo dados da Accenture extraídos do site Medium, espera-se que
+                            a indústria de IoT possa injetar na economia global, até 2030, US$ 14,2 trilhões. O Brasil
+                            não fica de fora dessa novidade, o estudo Índice de Inteligência Empresarial mostrou que o
+                            investimento de companhias brasileiras em novas tecnologias, em 2019, foi 45% maior que em
+                            2018 , totalizando US$6,1 milhões.</p>
+                        <img src="./pnb_img/profisssionais_no_Brasil.jpg" alt="Profissionais no Brasil" class="img_02">
 
-<p><em>Amazon Alexa: com comandos de voz, o usuário pode controlar diversos aparelhos compatíveis com a tecnologia</em></p>
-<br>
-<p>O papel do desenvolvedor de plataforma é integrar hardware (gadgets, dispositivos de hardware) e software, fazendo com que diferentes dispositivos se comuniquem usando um mesmo padrão e consigam compartilhar informações entre si. Muitas empresas utilizam ecossistemas próprios em seus produtos, como é o caso da Amazon Alexa, mas quem está interessado na área também pode treinar com soluções de código aberto, desenvolvendo em plataformas.</p>
-<br>
+                        <p class="principal_p">Para a construção de sistema embarcado conectado a rede, as pessoas
+                            precisam de <strong> conhecimentos multidisciplinares para entender como manipular dados de
+                                acordo
+                                com o contexto do projeto, e levando a melhores tomadas de decisões.</strong> Isso
+                            implica possuir
+                            habilidades de programação, arquitetura de computadores, eletrônica embarcada, inteligência
+                            artificial, ciência de dados, física, computação e conhecimentos específicos de acordo com o
+                            projeto a ser desenvolvido, como biologia, geografia, medicina, agronomia, física, entre
+                            outros. A IoT é um campo multidisciplinar, são necessários conhecimentos em diversas áreas
+                            para a equipe projetar um sistema.</p>
+                    </section>
+                </div>
+            </div>
+            <!-- Conteúdo de Desenvolvedor -->
+            <div class="content content_2">
+                <section class="principal">
+                    <h2 class="principal_titulo">Desenvolvedor de plataforma</h2>
 
-<h2 align="center">Desenvolvedor de Aplicativos</h2>
-<figure align="center"><img src="desenv_aplicativos.jpg" alt="Aplicativos" height="400" width="500"></figure>
-<br>
+                    <img src="./pnb_img/imagem.alexa.jpg" alt="imagem da alexa" class="img_03">
 
-<p> Além da plataforma que engloba todos os eletrônicos conectados, a <strong>Internet das Coisas</strong> demandará uma grande quantidade de desenvolvedores de aplicativos. O trabalho do profissional consiste em criar programas que permitem controlar dispositivos de hardware remotamente por meio de smartphones e tablets, bem como receber informação destes e conceber soluções voltadas para cada tipo de dispositivo.</p>
-<br>
-<p>Um exemplo desse trabalho seria as lâmpadas controladas por aplicativos onde é possível tanto ligar e desligar, quanto controlar sua intensidade.</p>
-<br>
+                    <p class="principal_p">O papel do desenvolvedor de plataforma é integrar hardware (gadgets,
+                        dispositivos de hardware) e software, fazendo com que diferentes dispositivos se comuniquem
+                        usando um mesmo padrão e consigam compartilhar informações entre si. Muitas empresas utilizam
+                        ecossistemas próprios em seus produtos, como é o caso da Amazon Alexa, mas quem está interessado
+                        na área também pode treinar com soluções de código aberto, desenvolvendo em plataformas.</p>
 
-<h2 align="center">Especialista em Big Data</h2>
-<figure align="center"><img src="big.data.jpg" alt="Big Data" width="400" height="400"></figure>
-<p><em>Informações que vão desde agenda até temperatura ideal de casa serão captadas e processadas por ecossistemas da IoT</em></p>
-<br>
+                    <h2 class="principal_titulo">Desenvolvedor de Aplicativos</h2>
+                    <img src="./pnb_img/desenv_aplicativos.jpg" alt="aplicativos" class="img_04">
 
-<p> Outra área importante que está ligada com a <strong>Internet das Coisas</strong> é <strong>Big Data</strong>. À medida que produtos do dia a dia ganham conexão com a internet, cada vez mais dados são produzidos. Desse modo, os trabalhos envolvendo tratamento e gerenciamento de informação devem crescer exponencialmente com a popularização da IoT.</p>
-<br>
-<p> Como já acontece no mercado atual, o especialista em <strong>Big Data</strong> terá que trabalhar com sistemas, bancos de dados e ferramentas de administração e análise de dados. Além de ter conhecimento de técnicas como machine learning, o profissional deve ficar ligado em conceitos de segurança de informação e ética, afinal sua “matéria-prima” são os usuários.</p>
-<br>
+                    <p class="principal_p">Além da plataforma que engloba todos os eletrônicos conectados, a <strong>
+                            Internet
+                            das Coisas </strong> demandará uma grande quantidade de desenvolvedores de aplicativos. O
+                        trabalho do
+                        profissional consiste em criar programas que permitem controlar dispositivos de hardware
+                        remotamente por meio de smartphones e tablets, bem como receber informação destes e conceber
+                        soluções voltadas para cada tipo de dispositivo.<br>
+                        Um exemplo desse trabalho seria as lâmpadas controladas por aplicativos onde é possível tanto
+                        ligar e desligar, quanto controlar sua intensidade.
+                    </p>
+                </section>
+            </div>
+            <!-- Conteúdo de Especialistas -->
+            <div class="content content_3">
+                <section class="principal">
+                    <h2 class="principal_titulo">Especialista em Big Data</h2>
+                    <img src="./pnb_img/big.data.jpg" alt="Big data" class="img_05">
+                    <p class="principal_p">Outra área importante que está ligada com a <strong>Internet das
+                            Coisas</strong> é <strong> Big Data.</strong> À
+                        medida que produtos do dia a dia ganham conexão com a internet, cada vez mais dados são
+                        produzidos. Desse modo, os trabalhos envolvendo tratamento e gerenciamento de informação devem
+                        crescer exponencialmente com a popularização da IoT.</p>
+                    <p class="principal_p">Como já acontece no mercado atual, o especialista em <strong>Big Data
+                        </strong>terá que
+                        trabalhar com sistemas, bancos de dados e ferramentas de administração e análise de dados. Além
+                        de ter conhecimento de técnicas como machine learning, o profissional deve ficar ligado em
+                        conceitos de segurança de informação e ética, afinal sua “matéria-prima” são os usuários.</p>
 
-<h2 align="center">Especialista em Segurança de Informação</h2>
-<figure align="center"><img src="seguranca-da-informacao.jpg" alt="Segurança de Informação" height="400" width="400"> </figure>
-<br>
+                    <h2 class="principal_titulo">Especialista em Segurança de Informação</h2>
+                    <img src="./pnb_img/seguranca-da-informacao.jpg" alt="Segurança da Informação" class="img_06">
+                    <p class="principal_p">Devido à grande quantidade de dispositivos captando dados e informações
+                        processadas em <strong>Big Data</strong>, é necessário ter alguém responsável por garantir que
+                        nada vai passar, e
+                        esse é o trabalho do especialista em segurança.</p>
+                    <p class="principal_p">lém de atuar desenvolvendo sistemas para proteger dispositivos conectados e
+                        ecossistemas da <strong>Internet das Coisas</strong>, alguns profissionais desse segmento terão
+                        que lidar com
+                        fatores como privacidade, o que demanda conhecimento de questões legislativas e éticas; afinal,
+                        cometer deslizes com informações de clientes pode não ser nada bom para os negócios.</p>
+                    <p class="principal_p">Se o foco é trabalhar na concepção de tecnologias de proteção para a
+                        <strong>Internet
+                            das Coisas</strong>, a dica é conhecer melhor as plataformas existentes e buscar
+                        conhecimentos
+                        específicos sobre vulnerabilidades e tendências de segurança que devem afetar os usuários nos
+                        próximos anos.</p>
 
-<p> Devido à grande quantidade de dispositivos captando dados e informações processadas em <strong>Big Data</strong>, é necessário ter alguém responsável por garantir que nada vai passar, e esse é o trabalho do especialista em segurança.</p>
-<br>
-<p> Além de atuar desenvolvendo sistemas para proteger dispositivos conectados e ecossistemas da <strong>Internet das Coisas</strong>, alguns profissionais desse segmento terão que lidar com fatores como privacidade, o que demanda conhecimento de questões legislativas e éticas; afinal, cometer deslizes com informações de clientes pode não ser nada bom para os negócios.</p>
-<br>
-<p> Se o foco é trabalhar na concepção de tecnologias de proteção para a <strong>Internet das Coisas</strong>, a dica é conhecer melhor as plataformas existentes e buscar conhecimentos específicos sobre vulnerabilidades e tendências de segurança que devem afetar os usuários nos próximos anos.</p>
-<br>
+                    <h2 class="principal_titulo">Especialista em Inteligência Artificial</h2>
+                    <img src="./pnb_img/Inteligência-artificial.png" alt="inteligência artificial" class="img_07">
+                    <p class="principal_p">Segundo a <strong>Intel, o mercado de IoT em 2025 irá movimentar um mercado
+                            de $6,2
+                            trilhões de dólares</strong> , e esse mercado exigirá profissionais com múltiplas
+                        proficiências,
+                        principalmente em inteligência artificial.</pp>
+                        <pp class="principal_p">São inúmeras aplicações de inteligência artificial para otimização e
+                            predição: monitorar um comportamento de malware na rede, apresentar as vulnerabilidades e
+                            riscos
+                            para um negócio, seja para detectar pragas em uma lavoura através de fotos tiradas de um
+                            drone,
+                            pegar fotos de câmeras instaladas nos postes da cidade para obter informações do tráfego e
+                            direcionar em tempo real o motorista para vias pouco pavimentadas, pegar a temperatura
+                            através
+                            de um sensor para controlar a temperatura do ar condicionado e assim com a IA prever quantos
+                            reais a pagar da conta de luz do próximo mês, entre outras.</pp>
+                </section>
+            </div>
+        </div>
 
-<h2 align="center">Especialista em Inteligência Artificial</h2>
-<figure align="center"><img src="Inteligência-artificial.png" alt="Inteligência Artificial" height="400" width="400"></figure>
-<br>
+        <!-- Rodapé -->
+        <footer class="rodape bg-dark">
+            <a class="navbar-brand" href="../index/index.html">Internet of Things <i class="bi bi-wifi"></i></a>
+            <p>&copy; Copyright 2022</p>
+        </footer>
+    </main>
 
-<p>Segundo a <strong>Intel, o mercado de IoT em 2025 irá movimentar um mercado de $6,2 trilhões de dólares</strong> , e esse mercado exigirá profissionais com múltiplas proficiências, principalmente em inteligência artificial.</p> 
-<p> São inúmeras aplicações de inteligência artificial para otimização e predição: monitorar um comportamento de malware na rede, apresentar as vulnerabilidades e riscos para um negócio, seja para detectar pragas em uma lavoura através de fotos tiradas de um drone, pegar fotos de câmeras instaladas nos postes da cidade para obter informações do tráfego e direcionar em tempo real o motorista para vias pouco pavimentadas, pegar a temperatura através de um sensor para controlar a temperatura do ar condicionado e assim com a IA prever quantos reais a pagar da conta de luz do próximo mês, entre outras. </p>
-
+    <script src="../pagina_iot_industrial/iot_industrial_js/iot_industrial.js"></script>
 </body>
+
 </html>
