@@ -1,24 +1,7 @@
-#titulo_1 {
-  color: blue;
-}
-
 body {
-  text-align: center;
+  background-color: #F2F2F2;
+  color: #212529;
 }
-
-.artigo {
-  width: 60%;
-  margin: 2.5rem auto;
-  font-size: 1.5rem;
-}
-
-
-
-.titulos {
-  margin-bottom: 2rem;
-  font-size: 3rem;
-}
-
 
 #porcentagem {
   color: blue;
@@ -33,85 +16,13 @@ body {
   text-align: center;
 }
 
-
-
-
 .nav-item {
   margin-right: 1rem;
 }
 
-.carousel-item {
-  height: 65vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.carousel-item a {
-  color: #fff;
-  text-decoration: none;
-}
-
-
-
-
-
-
-/*parte da imagem*/
+/*parte da banner*/
 .banner {
-  position: relative; 
-  color: #F2F2F2;
-}
-
-.banner_img {
-  width: 100%;
-  height: calc(100vh - 3.5rem);
-  background: url(../pnb_img/pnb_banner.jpg) no-repeat center / cover;
-  background-attachment: fixed;
-}
-
-.banner_texto {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 2rem 0;
-  background-color: rgba(0, 0, 0, 75%);
-  box-shadow: 0 0 200px #000000;
-}
-
-.banner_titulo {
-  text-align: center;
-  font-size: 8rem;
-}
-
-.banner_p {
-  font-size: 1.2rem;
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-
-
-
-
-body {
-  background-color: #F2F2F2;
-  color: #212529;
-}
-
-header {
-  background-color: #ffffff;
-}
-
-/*parte da imagem*/
-.banner {
-  position: relative; 
+  position: relative;
   color: #F2F2F2;
 }
 
@@ -145,146 +56,10 @@ header {
   text-align: center;
 }
 
-/*parte do menu de navegação entre os conteúdos*/
-
-.navegacao {
-  position: sticky;
-  top: 0;
-}
-
-.nav {
-  padding: 1rem 0 1.2rem 0;
-  background-color: #212529;
-  color: #F2F2F2;
-  box-shadow: inset 0px -2px 10px #555555;
-  
-}
-
-.nav button {
-  width: 100%;
-}
-
-.nav span {
-  color: #F2F2F2;
-  width: 100%;
-  font-size: 1.5rem;
-}
-
-.nav span:after {
-  content: "  ↓";
-}
-
-.nav_lista {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 1.2px;
-  padding: 0;
-}
-
-.nav_itens {
-  padding-bottom: 1.1rem;
-  cursor: pointer;
-  color: #F2F2F2;
-  border-top: 5px solid #00000000;
-}
-
-.item1 {
-  border-bottom: 5px solid #F2C12E;
-  color: #F2C12E;
-}
-
-.nav_itens:hover {
-  color: #F2F2F2;
-}
-
-.content_2, .content_3, .content_4 {
-  display: none;
-}
-
-.rodape {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 1rem 0;
-  margin-top: 3rem;
-  color: #F2F2F2;
-}
-
-.navbar-brand {
-  color: #F2F2F2;
-  text-align: center;
-}
-
-.navbar-brand:hover {
-  color: #F2F2F2;
-}
-
-.rodape p {
-  margin-top: 1rem;
-}
-
-@media screen and (max-width: 768px) {
-  .banner_img {
-      width: 100%;
-      background: url(../pnb_img/pnb.banner02.jpg) no-repeat right / cover;
-  }
-
-  .banner_titulo {
-      font-size: 4rem;
-  }
-
-  .banner_p {
-      font-size: 1rem;
-  }
-  .navbar {
-      padding: .5rem 0 0 0;
-  } 
-
-  .nav_lista {
-      margin: 0 0 0 0;
-      padding: .3rem 0;
-      display: block;
-  }
-
-  .nav li {
-      margin: 1rem 0;
-      text-align: center;
-  }
-
-  .nav_itens {
-      padding: 0;
-  }
-
-  .rodape {
-      padding: .5rem 0;
-      width: 100%;
-      display: inline-block;
-  }
-}
-
-@media screen and (min-width: 768px) {
-
-  
-  .nav button {
-      display: none;
-  }
-  
-  .nav .collapse:not(.show) {
-      display: flex;
-  }
-}
-
-
-
-
-
 /* Parte do conteudo principal*/
 .principal {
   width: 65%;
-  margin: 5rem auto;
+  margin: 5rem auto 2rem auto;
   text-align: center;
   font-size: 1.1rem;
 }
@@ -298,95 +73,85 @@ header {
   margin-bottom: 2.5rem;
 }
 
-/* Partes de casos de uso*/
-.casos-uso_titulo {
-  width: 65%;
-  margin: 2.5rem auto;
-}
+/* Rodapé */
 
-.casos-uso_principal {
-  width: 85%;
-  margin: 0 auto;
-}
-
-.conteudo_cartao {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.cartao {
-  width: 25%;
-}
-
-.cartao_img  {
+.rodape {
   text-align: center;
-  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  color: #F2F2F2;
 }
 
-.cartao_titulo {
-  text-decoration: underline;
+.rodape p {
+  margin-top: 1rem;
 }
 
-.cartao_p {
-  text-align: justify;
+.navbar-brand {
+  color: #F2F2F2;
+  text-align: center;
 }
 
-/* parte beneficios*/
-
-.beneficio {
-  text-align: left;
-}
-
-.beneficio_titulo {
-  margin: 2rem 0;
-  text-decoration: underline;
-}
-
-.beneficio_p {
-  margin-bottom: 1.5rem;
-  text-align: justify;
+.navbar-brand:hover {
+  color: #F2F2F2;
 }
 
 /* parte das imagens*/
 
-.img_01, .img_02, .img_03, .img_05, .img_06 {
-  width: 60%;
-  margin: 2rem 0;
+.img_01,
+.img_03 {
+  width: 35%;
+  margin: 2rem 0 4rem 0;
 }
 
-.img_04, .img_07{
-  width: 80%;
-  margin: 2rem 0;
+.img_02 {
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 768px) {
 
   .principal {
-      width: 90%;
-      margin: 3.5rem auto;
-      text-align: justify;
+    width: 90%;
+    margin: 3.5rem auto;
+    text-align: justify;
   }
 
   .principal_titulo {
-      font-size: 2rem;
-      text-align: center;
+    font-size: 2rem;
+    text-align: center;
   }
 
   .principal_p {
-      font-size: 1rem;
+    font-size: 1rem;
+    text-align: justify;
   }
 
-  .conteudo_cartao {
-      display: block;
+  .banner_img {
+    width: 100%;
+    background: url(./img/smart_home1.webp) no-repeat center / cover;
   }
 
-  .cartao {
-      width: 100%;
-      margin-top: 1.5rem;
+  .banner_titulo {
+    font-size: 4rem;
   }
 
-  .img_01, .img_02, .img_03, .img_04, .img_05, .img_06, .img_07 {
-      width: 100%;
+  .banner_p {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    padding: .5rem 0 0 0;
+  }
+
+  .rodape {
+    padding: .5rem 0;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .img_01,
+  .img_03 {
+    width: 80%;
   }
 }

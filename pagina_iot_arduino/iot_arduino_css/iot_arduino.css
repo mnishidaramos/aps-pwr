@@ -1,26 +1,18 @@
-.banner_img {
-    width: 100%;
-    height: calc(100vh - 3.5rem);
-    background-image: url(../iot_arduino_img/Arduino.jpg);
-    background: url(../iot_arduino_img/Arduino.jpg) no-repeat center / cover;
-    background-attachment: fixed;
-}
-
-.logo {
-    font-size: 4rem;
-    color: #F2F2F2;
-    text-decoration: none;
-}
-
-.logo:hover {
-    color: #F2F2F2;
-}
 
 /*parte da imagem*/
+
 .banner {
     position: relative; 
     color: #F2F2F2;
 }
+
+.banner_img {
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    background: url(../iot_arduino_img/Arduino.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+}
+
 .banner_texto {
     width: 100%;
     position: absolute;
@@ -30,7 +22,6 @@
     padding: 2rem 0;
     background-color: rgba(0, 0, 0, 75%);
     box-shadow: 0 0 200px #000000;
-    
 }
 
 .banner_titulo {
@@ -44,6 +35,9 @@
     margin: 0 auto;
     text-align: center;
 }
+/* navegação */
+
+
 .navegacao {
     position: sticky;
     top: 0;
@@ -54,7 +48,21 @@
     background-color: #212529;
     color: #F2F2F2;
     box-shadow: inset 0px -2px 10px #555555;
-    
+
+}
+
+.nav button {
+    width: 100%;
+}
+
+.nav span {
+    color: #F2F2F2;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.nav span:after {
+    content: "  ↓";
 }
 
 .nav_lista {
@@ -63,34 +71,103 @@
     align-items: center;
     width: 100%;
     margin-bottom: 1.2px;
-    list-style-type: none;
+    padding: 0;
 }
 
 .nav_itens {
-    padding-top: .9rem;
+    padding-bottom: 1.1rem;
     cursor: pointer;
     color: #F2F2F2;
     border-top: 5px solid #00000000;
-    text-decoration: none;
-}
-
-.item1 {
-    border-top: 5px solid #F2C12E;
-    color: #F2C12E;
 }
 
 .nav_itens:hover {
-    border-top: 5px solid #F2C12E;
     color: #F2C12E;
+    border-bottom: 5px solid #F2C12E;
 }
 
-.content_2, .content_3, .content_4 {
-    display: none;
-}
  .link_compra{
      text-decoration: none;
 
 }
 .link_compra:hover{
     color: #F2C12E;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    color: #F2F2F2;
+}
+
+.navbar-brand {
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.navbar-brand:hover {
+    color: #F2F2F2;
+}
+
+.rodape p {
+    margin-top: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .banner_img {
+        width: 100%;
+        background: url(../iot_arduino_img/Arduino.jpg) no-repeat right / cover;
+    }
+
+    .banner_titulo {
+        font-size: 4rem;
+    }
+
+    .banner_p {
+        font-size: 1rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: .5rem 0 0 0;
+    }
+
+    .nav_lista {
+        margin: 0 0 0 0;
+        padding: .3rem 0;
+        display: block;
+    }
+
+    .nav li {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .nav_itens {
+        padding: 0;
+    }
+    
+    .rodape {
+        padding: .5rem 0;
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .nav button {
+        display: none;
+    }
+
+    .nav .collapse:not(.show) {
+        display: flex;
+    }
 }
