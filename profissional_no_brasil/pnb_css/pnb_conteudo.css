@@ -15,9 +15,13 @@
     margin-bottom: 2.5rem;
 }
 
+.lista{
+    list-style-type: number;
+    text-align: left;
+}
 /* parte das imagens*/
 
-.img_01, .img_02, .img_03, .img_05, .img_06, .img_09 {
+.img_01, .img_02, .img_03, .img_05, .img_06, .img_09, .img_10, .img_11, .img_12{
     width: 60%;
     margin: 2rem 0;
 }
