@@ -100,13 +100,18 @@ body {
 /* parte das imagens*/
 
 .img_01,
-.img_03 {
+.img_03{
   width: 35%;
   margin: 2rem 0 4rem 0;
 }
 
 .img_02 {
   margin-bottom: 1rem;
+}
+
+.img_04 {
+  width: 60%;
+  margin: 2rem 0 4rem 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -151,7 +156,8 @@ body {
   }
 
   .img_01,
-  .img_03 {
+  .img_03,
+  .img_04 {
     width: 80%;
   }
 }

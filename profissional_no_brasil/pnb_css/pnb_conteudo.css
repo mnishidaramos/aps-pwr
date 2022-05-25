@@ -15,65 +15,20 @@
     margin-bottom: 2.5rem;
 }
 
-/* Partes de casos de uso*/
-.casos-uso_titulo {
-    width: 65%;
-    margin: 2.5rem auto;
-}
-
-.casos-uso_principal {
-    width: 85%;
-    margin: 0 auto;
-}
-
-.conteudo_cartao {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.cartao {
-    width: 25%;
-}
-
-.cartao_img  {
-    text-align: center;
-    margin-bottom: 1.2rem;
-}
-
-.cartao_titulo {
-    text-decoration: underline;
-}
-
-.cartao_p {
-    text-align: justify;
-}
-
-/* parte beneficios*/
-
-.beneficio {
-    text-align: left;
-}
-
-.beneficio_titulo {
-    margin: 2rem 0;
-    text-decoration: underline;
-}
-
-.beneficio_p {
-    margin-bottom: 1.5rem;
-    text-align: justify;
-}
-
 /* parte das imagens*/
 
-.img_01, .img_02, .img_03, .img_05, .img_06 {
+.img_01, .img_02, .img_03, .img_05, .img_06, .img_09 {
     width: 60%;
     margin: 2rem 0;
 }
 
 .img_04, .img_07{
     width: 80%;
+    margin: 2rem 0;
+}
+
+.img_08 {
+    width: 40%;
     margin: 2rem 0;
 }
 
@@ -103,7 +58,7 @@
         margin-top: 1.5rem;
     }
 
-    .img_01, .img_02, .img_03, .img_04, .img_05, .img_06, .img_07 {
+    .img_01, .img_02, .img_03, .img_04, .img_05, .img_06, .img_07, .img_08, .img_09 {
         width: 100%;
     }
 }
