@@ -1,0 +1,29 @@
+Arduino e iot 
+
+O que é Arduino
+Em poucas palavras, Arduino é uma plataforma de desenvolvimento de projetos eletrônicos (ou prototipagem eletrônica, como também é comumente dito), constituída tanto de hardware e software.
+O principal componente de uma placa Arduino é seu microcontrolador, que nada mais é que um pequeno processador de computador montado em uma placa com diversos outros componentes que manipulam sua entrada e saída, e o propósito para isso é tornar mais fácil para você conectar o mundo físico ao seu redor com o mundo digital.
+
+Para que serve o arduino.
+As principais razões para se utilizar a plataforma Arduino em seus projetos são as seguintes:
+                Baixo custo de prototipagem;
+                Softwares de simulação gratuitos disponíveis;
+                Fácil de programar;
+                Grande número de tutoriais, artigos e projetos prontos na internet;
+                Extensa comunidade de desenvolvedores e hobbystas;
+Não requer experiência ou grandes conhecimentos prévios de eletrônica/programação (no entanto, é recomendável saber os conceitos básicos pelo menos).
+
+Arduino e IOT
+Internet das coisas e a utilização de Arduino na automação residencial
+Um dos projetos mais cobiçados pelos amantes da tecnologia é a automação residencial com Arduino, onde, por meio de aplicativos, comandar a casa como um todo, permitindo abrir e fechar cortinas e janelas motorizadas, ligar e desligar televisores em horários pré-definidos, comandar ventiladores, e tudo mais, isso diretamente do celular, tablet ou computador.
+            
+Grandes coisas em automação podem ser feitas adicionando ao Arduino um Ethernet Shield, permitindo transformar o pequeno microcontrolador em um dispositivo conectado à internet, capaz de mudar o estado de luzes, TVs, praticamente qualquer coisa que pode pensar, ligado e desligado, utilizando uma interface baseada em browser ou um temporizador.
+No cenário atual do controle de residências através de sistemas embarcados, utilizando microcontroladores como central de automação, foi observado que, o Arduino Uno apresentou-se uma ferramenta de fácil implementação, além de possuir uma relação de custo-benefício para o controle de determinados processos em residências. 
+
+fontes:
+Principal: https://aws.amazon.com/pt/iot/solutions/industrial-iot/
+Diferenças: https://www.mokosmart.com/pt/iiot-vs-iot-technologies/
+                      https://www.hpe.com/br/pt/what-is/industrial-iot.html
+Beneficios: https://brasil.softlinegroup.com/sobre-a-empresa/blog/o-que-e-a-internet-das-coisas-industrial-e-quais-sao-suas-aplicacoes
+Futuro: https://www.copadata.com/pt/produtos/platform-editorial-content/o-que-sao-a-iot-e-a-iiot-copa-data/
+       
